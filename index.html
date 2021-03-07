@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>eooh</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="hero">
+        <header class="header contenedor">
+            <div class="logo">
+                <img src="img/logoe.png">
+            </div>
+            <nav class="navegacion">
+                <a href="#">Trabaja con nosotros</a>
+                <a href="#">Ayuda</a>
+                <a href="#">Registro</a>
+                <a href="#">Iniciar Sesión</a>
+            </nav>
+        </header>
+
+        <div class="contenido-hero contenedor">
+            <h1>Encuentra tu<span>  artista </span> favorito </h1>
+
+            <form action="/buscador" method="POST" class="formulario formulario-buscar" id="formulario" >
+                <input type="text" name="busqueda" class="busqueda" placeholder="Diego Merritt, Anabel Angus">
+                <input type="submit" value="Buscar" id="btn-submit">
+            </form>
+        </div>
+    </div> <!--.hero-->
+
+    <main class="contenido contenedor">
+        <section class="hacer">
+            <h2>Recomendados</h2>
+            <div class="contenedor-cards">
+                    <div class="card">
+                        <img src="img/matamba.jpg">
+                        <div class="info">
+                            <p class="categoria concierto">Músico</p>
+                            <p class="titulo">Matamba</p>
+                            <p class="precio">10$</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/anabel_angus.jpg">
+                        <div class="info">
+                            <p class="categoria concierto">Presentadora de TV</p>
+                            <p class="titulo">Anabel Angus</p>
+                            <p class="precio">$30</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/evo_morales.jpg">
+                        <div class="info">
+                            <p class="categoria clase">Político</p>
+                            <p class="titulo">Evo Morales</p>
+                            <p class="precio">$15</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/simon_dice.jpg">
+                        <div class="info">
+                            <p class="categoria paseo">Influencer</p>
+                            <p class="titulo">Simón dice</p>
+                            <p class="precio">$20</p>
+                        </div>
+                    </div> <!--.card-->
+            </div> <!--.columnas4 cuadros-->
+        </section>
+
+
+        <section class="hacer">
+            <h2 class="mi-viaje-plus">Personaliza tu sorpresa</h2>
+            <div class="contenedor-cards premium">
+                <div class="info">
+                    <a href="#" class="boton btn-mi-viaje">Explorar nuestras ofertas </a>
+                </div>
+            </div> <!--.columnas4 cuadros-->
+        </section>
+
+        <section class="hospedaje">
+            <h2>Músicos</h2>
+            <div class="contenedor-cards">
+                    <div class="card">
+                        <img src="img/veneno.jpg">
+                        <div class="info">
+                            <p class="categoria hospedaje">Grupo</p>
+                            <p class="titulo">Veneno</p>
+                            <p class="precio">$30</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/bonny_lovy.jpg">
+                        <div class="info">
+                            <p class="categoria hospedaje">Músico</p>
+                            <p class="titulo">Bonny Lovy</p>
+                            <p class="precio">$20</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/octavia.jpg">
+                        <div class="info">
+                            <p class="categoria hospedaje">Banda</p>
+                            <p class="titulo">Octavia</p>
+                            <p class="precio">$25</p>
+                        </div>
+                    </div> <!--.card-->
+            </div> <!--.columnas4 cuadros-->
+        </section>
+
+        <section class="hacer">
+                <h2>Presentadores de TV</h2>
+                <div class="contenedor-cards">
+                        <div class="card">
+                            <img src="img/rocabado.jpeg">
+                            <div class="info">
+                                <p class="categoria clase">Presentador</p>
+                                <p class="titulo">Carlos Rocabado</p>
+                                <p class="precio">30</p>
+                            </div>
+                        </div> <!--.card-->
+                        <div class="card">
+                            <img src="img/delgado.jpg">
+                            <div class="info">
+                                <p class="categoria concierto">Presentadora</p>
+                                <p class="titulo">Maria Delgado</p>
+                                <p class="precio">$12</p>
+                            </div>
+                        </div> <!--.card-->
+                        <div class="card">
+                            <img src="img/leonel.jpg">
+                            <div class="info">
+                                <p class="categoria clase">Conductor</p>
+                                <p class="titulo">Leonel Fransezze</p>
+                                <p class="precio">$20</p>
+                            </div>
+                        </div> <!--.card-->
+                        <div class="card">
+                            <img src="img/natalia.jpg">
+                            <div class="info">
+                                <p class="categoria paseo">Presentadora</p>
+                                <p class="titulo">Natalia Girard</p>
+                                <p class="precio">$10</p>
+                            </div>
+                        </div> <!--.card-->
+                </div> <!--.columnas4 cuadros-->
+            </section>
+
+    </main>
+    
+   
+
+    <footer id="footer" class="footer">
+        <div class="contenedor">
+                <div class="nav-footer">
+                    <h3 class="titulo-footer">MiViaje.com</h3>
+                    <nav class="menu">
+                        <a href="#">Empleo</a>
+                        <a href="#">Prensa</a>
+                        <a href="#">Politicas</a>
+                        <a href="#">Ayuda</a>
+                    </nav>
+                </div>
+
+                <div class="nav-footer">
+                    <h3 class="titulo-footer">Descubre MiViaje.com</h3>
+                    <nav class="menu">
+                        <a href="#">Confianza y Seguridad</a>
+                        <a href="#">Crédito de Viajero</a>
+                        <a href="#">AirBNB Citizen</a>
+                        <a href="#">Viaje de negocios</a>
+                    </nav>
+                </div>
+
+                <div class="nav-footer">
+                    <h3 class="titulo-footer">Hospedaje</h3>
+                    <nav class="menu">
+                        <a href="#">Razones para Hospedar</a>
+                        <a href="#">Hospitalidad</a>
+                        <a href="#">Ser un anfitrión responsable</a>
+                        <a href="#">Centro de la Comunidad</a>
+                    </nav>
+                </div>
+
+                <div class="nav-footer">
+                    <nav class="sociales">
+                        <ul>
+                            <li><a href="http://facebook.com" target="_blank"><span>Facebook</span></a></li>
+                            <li><a href="http://twitter.com" target="_blank"><span>Twitter</span></a></li>
+                            <li><a href="http://instagram.com" target="_blank"><span>Instagram</span></a></li>
+                        </ul>
+                    </nav>
+                    <nav class="menu">
+                        <a href="#">Razones para Hospedar</a>
+                        <a href="#">Hospitalidad</a>
+                        <a href="#">Ser un anfitrión responsable</a>
+                        <a href="#">Centro de la Comunidad</a>
+                    </nav>
+                </div>
+        </div>
+    </footer>
+    <a href="#footer" class="btn-flotante">Idioma y Moneda</a>
+
+    <!--<script src="js/01-scripts.js"></script>-->
+    <!--<script src="js/02-scripts.js"></script>-->
+    <!--<script src="js/03-scripts.js"></script>-->
+    <!--<script src="js/04-scripts.js"></script>-->
+    <!--<script src="js/05-scripts.js"></script>-->
+    <!--<script src="js/06-scripts.js"></script>-->
+    <!--script src="js/07-scripts.js"></script>-->
+    <script src="js/08-scripts.js"></script>
+    <script src="js/09-scripts.js"></script>
+    <script src="js/10-scripts.js"></script>
+    <script src="js/11-scripts.js"></script>
+</body>
+</html>
