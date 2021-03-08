@@ -14,11 +14,11 @@ body {
 
 h1 {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 @media (min-width:768px) {
     h1 {
-        font-size: 2.6rem;
+        font-size: 2rem;
     }
 }
 
@@ -90,6 +90,10 @@ img {
     width:15%;
 }
 
+.pregunta {
+    margin:0 auto;
+}
+
 .navegacion a{
     color: var(--obscuro);
     text-decoration: none;
@@ -106,7 +110,7 @@ img {
 
 .contenido-hero {
     display: grid;
-    grid-template-columns: 5% auto 5%;
+    grid-template-columns: 10% auto 30%;
     grid-template-rows: max-content auto;
 }
 .contenido-hero h1{
@@ -234,6 +238,26 @@ main > section {
     color: var(--claro);
 }
 
+.boton-comprar {
+    background-color: var(--claro);
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    width:40%;
+    border-radius: 10px;
+    color: var(--obscuro);
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 400;
+    -webkit-box-shadow: 0px 14px 43px -21px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 14px 43px -21px rgba(0,0,0,1);
+    box-shadow: 0px 14px 43px -21px rgba(0,0,0,1);
+    transition: all .3s ease-in-out;
+}
+.boton-comprar:hover {
+    background-color: var(--primario);
+    color: var(--claro);
+}
 
 /** Populares **/
 .destinos .contenedor-cards {
